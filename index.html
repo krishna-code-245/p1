@@ -69,4 +69,126 @@
       padding: 20px;
       background: white;
       border-radius: 10px;
-      box-shadow: 0 4
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .project-card {
+      background: #f9f9f9;
+      border-left: 4px solid #0366d6;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 5px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #24292e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to My GitHub Page</h1>
+  <p>Student Portfolio | Built with GitHub Pages</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="content">
+    
+    <div class="main">
+      
+      <section id="home">
+        <h2>Welcome</h2>
+        <p>Hi! I'm Krishnasamy, a student passionate about learning and creating projects. This portfolio showcases my work and skills.</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <h3>Project 1: Portfolio Website</h3>
+          <p>A responsive portfolio website built with HTML and CSS. This project demonstrates my web development skills.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project 2: Coming Soon</h3>
+          <p>More exciting projects coming soon. Stay tuned!</p>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+          <img src="project1.jpg" alt="Screenshot of Project 1">
+          <img src="project2.jpg" alt="Screenshot of Project 2">
+          <img src="project3.jpg" alt="Screenshot of Project 3">
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a student developer interested in web development and GitHub. I love learning new technologies and building projects that solve real problems.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <ul>
+          <li><strong>GitHub:</strong> <a href="https://github.com/krishna-code-245" target="_blank">krishna-code-245</a></li>
+          <li><strong>Email:</strong> Your email here</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <div class="sidebar">
+      <h2>Quick Info</h2>
+      <p><strong>Name:</strong> Krishnasamy</p>
+      <p><strong>Role:</strong> Student Developer</p>
+      <p><strong>Skills:</strong></p>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Web Design</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  © 2026 Krishnasamy | Hosted on GitHub Pages
+</footer>
+
+</body>
+</html>
